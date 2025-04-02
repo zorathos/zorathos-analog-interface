@@ -10,6 +10,7 @@ import io.vertx.ext.web.Router;
 import io.vertx.ext.web.handler.BodyHandler;
 import lombok.extern.slf4j.Slf4j;
 
+import static org.datacenter.analog.crew.PersonnelRouter.crews;
 import static org.datacenter.analog.plan.FlightPlanRouter.flightDates;
 import static org.datacenter.analog.plan.FlightPlanRouter.flightXml;
 import static org.datacenter.analog.plan.FlightPlanRouter.planCodes;
@@ -29,6 +30,8 @@ public class Main extends AbstractVerticle {
         flightDates(router);
         planCodes(router);
         flightXml(router);
+
+        crews(router);
 
         Route base = router.route("/");
         base.handler(routingContext -> {
