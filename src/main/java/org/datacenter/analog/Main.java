@@ -14,6 +14,8 @@ import static org.datacenter.analog.crew.PersonnelRouter.crews;
 import static org.datacenter.analog.plan.FlightPlanRouter.flightDates;
 import static org.datacenter.analog.plan.FlightPlanRouter.flightXml;
 import static org.datacenter.analog.plan.FlightPlanRouter.planCodes;
+import static org.datacenter.analog.sorties.SortiesBatchRouter.sortiesBatch;
+import static org.datacenter.analog.sorties.SortiesRouter.sorties;
 
 @Slf4j
 public class Main extends AbstractVerticle {
@@ -32,6 +34,9 @@ public class Main extends AbstractVerticle {
         flightXml(router);
 
         crews(router);
+
+        sortiesBatch(router);
+        sorties(router);
 
         Route base = router.route("/");
         base.handler(routingContext -> {

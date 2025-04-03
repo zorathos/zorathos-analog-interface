@@ -66,6 +66,7 @@ public class FlightPlanRouter {
         log.info("PlanCodes API is being registered");
         Route planCodes = router.route(HttpMethod.GET, "/FXDT/BindJHxx");
         planCodes.handler(routingContext -> {
+            log.info("PlanCodes API is being handled.");
             if (checkCookie(routingContext)) return;
 
             // 检查参数
