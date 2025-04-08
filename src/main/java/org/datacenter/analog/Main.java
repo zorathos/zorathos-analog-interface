@@ -10,6 +10,8 @@ import io.vertx.ext.web.Router;
 import io.vertx.ext.web.handler.BodyHandler;
 import lombok.extern.slf4j.Slf4j;
 
+import static org.datacenter.analog.asset.AssetRouter.assetConfig;
+import static org.datacenter.analog.asset.AssetRouter.assetList;
 import static org.datacenter.analog.crew.PersonnelRouter.crews;
 import static org.datacenter.analog.plan.FlightPlanRouter.flightDates;
 import static org.datacenter.analog.plan.FlightPlanRouter.flightXml;
@@ -20,7 +22,7 @@ import static org.datacenter.analog.sorties.SortiesRouter.sorties;
 @Slf4j
 public class Main extends AbstractVerticle {
 
-    private static final int PORT = 8080;
+    private static final int PORT = 18080;
 
     public static void main(String[] args) {
         Vertx vertx = Vertx.vertx();
@@ -37,6 +39,9 @@ public class Main extends AbstractVerticle {
 
         sortiesBatch(router);
         sorties(router);
+
+        assetList(router);
+        assetConfig(router);
 
         Route base = router.route("/");
         base.handler(routingContext -> {

@@ -25,6 +25,7 @@
         <log4j2.version>2.24.3</log4j2.version>
         <lombok.version>1.18.36</lombok.version>
         <zorathos-data-model.version>0.0.11</zorathos-data-model.version>
+        <jsch.version>0.2.24</jsch.version>
 
         <main.verticle>org.datacenter.analog.Main</main.verticle>
         <launcher.class>io.vertx.core.Launcher</launcher.class>
@@ -75,6 +76,12 @@
                 <groupId>io.github.wangminan</groupId>
                 <artifactId>data-model-human-machine</artifactId>
                 <version>${zorathos-data-model.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.mwiede</groupId>
+                <artifactId>jsch</artifactId>
+                <version>${jsch.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -136,6 +143,11 @@
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.mwiede</groupId>
+            <artifactId>jsch</artifactId>
         </dependency>
     </dependencies>
 
