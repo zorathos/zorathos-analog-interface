@@ -24,7 +24,7 @@
         <slf4j-api.version>2.0.17</slf4j-api.version>
         <log4j2.version>2.24.3</log4j2.version>
         <lombok.version>1.18.38</lombok.version>
-        <zorathos-data-model.version>0.0.11</zorathos-data-model.version>
+        <zorathos-data-model.version>0.0.12</zorathos-data-model.version>
         <jsch.version>0.2.24</jsch.version>
 
         <main.verticle>org.datacenter.analog.Main</main.verticle>
