@@ -1,2 +1,2 @@
 # 测试vertx是否正常运行
-GET http://127.0.0.1:8080
+GET http://127.0.0.1:8080/FXDT/GetXML

@@ -1,0 +1,22 @@
+<FLTPLAN>
+     <HEAD VER=\"歼强2016\" TITLE=\"空军XXXX试验与评估2025年02月22日跨昼夜（主）飞行计划表\" TIMELINE=\"9:00, 10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00\" TMODE=\"老\" PLANENUM=\"50\" KFSK=\"60\" ZCSJ=\"520\" TLSK=\"60\" RCSK=\"08:06\" RLSK=\"19:04\" THSK=\"19:31\" TTHH=\" \" DXTHH=\" \" ZHSHH=\" \" DWSBXH=\" \"/>
+     <NOTES NOTE=\"参训飞行员数：29，参训飞机：0， 战斗（单座）机数：0， 教练（双座）机数：0， 计划时间：57：35， 总架次：41， 占场时间：8：40；----; 各练习架次：ACT-2/3, ACT-5/8, ACT s/11, CFTT-7/2, CFTT-8/2, CFTT-9/2, 试飞/2， SIM, ACT s/8, 高滑/3；----；；\"/>
+     <CMDS>
+          <CMD XM=\"杨朝辉\" LB=\"主\" SX=\" \"/>
+          <CMD XM=\"刘青\" LB=\"副\" SX=\" \"/>
+     </CMDS>
+     <TSKS>
+          <TSK XH=\"1\" DM=\"9922132\" XM=\"刘期鸿\" RW=\"ACTS\"/>
+          <TSK XH=\"2\" DM=\"0523739\" XM=\"胡泽文\" RW=\"CFTT-9\"/>
+          <TSK XH=\"3\" DM=\"xxxxxxx\" XM=\"xxx\" RW=\"....\"/>
+          <TSK XH=\"4\" DM=\"xxxxxxx\" XM=\"刘期鸿\" RW=\"ACTS\"/>
+          <TSK XH=\"29\" DM=\"xxxxxxx\" XM=\"刘期鸿\" RW=\"ACTS\"/>
+     </TSKS>
+     <FLTS>
+          <FLT X=\"60\" Y=\"9\" JCID=\"4\" QFSK=\"10:00\" KZSK=\"90\" YS=\"167116800\" DG=\"歼-16\" LXH=\"CFTT-7\" CS=\"1\" SJ=\"60\" JHLX=\"\" JHSJ=\"\" GD=\"1以上\" KY=\"\" FZ=\"\" BDNO=\"1\" SFZJ=\"\" BDLX=\"0\" BDSL=\"\" QCXM=\"侯杰\" QCDM=\"0672973\" QCDH=\"2802\" QCDZ=\"杰\" QCXZ=\"带飞\" HCXM=\"李庆坤\" HCDM=\"11113333\" HCDH=\"5335\" HCDZ=\"庆\" HCXZ=\"任教\" XSMS=\"EHNS\" JKYS=\"战术基础\" YXYL=\"\" WQGZ=\"\" GRFA=\"\" />
+          <FLT X=\"60\" Y=\"9\" JCID=\"4\" QFSK=\"10:00\" KZSK=\"90\" YS=\"167116800\" DG=\"歼-16\" LXH=\"CFTT-7\" CS=\"1\" SJ=\"60\" JHLX=\"\" JHSJ=\"\" GD=\"1以上\" KY=\"\" FZ=\"\" BDNO=\"1\" SFZJ=\"\" BDLX=\"0\" BDSL=\"\" QCXM=\"侯杰\" QCDM=\"0672973\" QCDH=\"2802\" QCDZ=\"杰\" QCXZ=\"带飞\" HCXM=\"李庆坤\" HCDM=\"11113333\" HCDH=\"5335\" HCDZ=\"庆\" HCXZ=\"任教\" XSMS=\"EHNS\" JKYS=\"战术基础\" YXYL=\"\" WQGZ=\"\" GRFA=\"\" />
+          <FLT X=\"60\" Y=\"9\" JCID=\"4\" QFSK=\"10:00\" KZSK=\"90\" YS=\"167116800\" DG=\"歼-16\" LXH=\"CFTT-7\" CS=\"1\" SJ=\"60\" JHLX=\"\" JHSJ=\"\" GD=\"1以上\" KY=\"\" FZ=\"\" BDNO=\"1\" SFZJ=\"\" BDLX=\"0\" BDSL=\"\" QCXM=\"侯杰\" QCDM=\"0672973\" QCDH=\"2802\" QCDZ=\"杰\" QCXZ=\"带飞\" HCXM=\"李庆坤\" HCDM=\"11113333\" HCDH=\"5335\" HCDZ=\"庆\" HCXZ=\"任教\" XSMS=\"EHNS\" JKYS=\"战术基础\" YXYL=\"\" WQGZ=\"\" GRFA=\"\" />
+          <FLT X=\"60\" Y=\"9\" JCID=\"4\" QFSK=\"10:00\" KZSK=\"90\" YS=\"167116800\" DG=\"歼-16\" LXH=\"CFTT-7\" CS=\"1\" SJ=\"60\" JHLX=\"\" JHSJ=\"\" GD=\"1以上\" KY=\"\" FZ=\"\" BDNO=\"1\" SFZJ=\"\" BDLX=\"0\" BDSL=\"\" QCXM=\"侯杰\" QCDM=\"0672973\" QCDH=\"2802\" QCDZ=\"杰\" QCXZ=\"带飞\" HCXM=\"李庆坤\" HCDM=\"11113333\" HCDH=\"5335\" HCDZ=\"庆\" HCXZ=\"任教\" XSMS=\"EHNS\" JKYS=\"战术基础\" YXYL=\"\" WQGZ=\"\" GRFA=\"\" />
+          <FLT X=\"60\" Y=\"9\" JCID=\"4\" QFSK=\"10:00\" KZSK=\"90\" YS=\"167116800\" DG=\"歼-16\" LXH=\"CFTT-7\" CS=\"1\" SJ=\"60\" JHLX=\"\" JHSJ=\"\" GD=\"1以上\" KY=\"\" FZ=\"\" BDNO=\"1\" SFZJ=\"\" BDLX=\"0\" BDSL=\"\" QCXM=\"侯杰\" QCDM=\"0672973\" QCDH=\"2802\" QCDZ=\"杰\" QCXZ=\"带飞\" HCXM=\"李庆坤\" HCDM=\"11113333\" HCDH=\"5335\" HCDZ=\"庆\" HCXZ=\"任教\" XSMS=\"EHNS\" JKYS=\"战术基础\" YXYL=\"\" WQGZ=\"\" GRFA=\"\" />
+     </FLTS>
+</FLTPLAN>
