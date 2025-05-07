@@ -113,7 +113,7 @@ public class FlightPlanRouter {
             log.info("Flight XML for plan code: {} is being requested.", jhbhStr);
             String xml = "";
             try {
-                xml = Files.readString(Path.of("D:\\0_大学\\2024.9\\实验室\\数据中台\\数据模型\\0_业务和武器_定\\3.10-数据模型\\4_人员档案及飞行计划\\飞行计划样例数据.xml"));
+                xml = Files.readString(Path.of("D:\\0_大学\\2024.9\\实验室\\数据中台\\数据模型\\0_业务和武器_定\\4_人员档案及飞行计划\\飞行计划样例数据.xml"));
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }

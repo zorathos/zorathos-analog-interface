@@ -22,7 +22,7 @@ import static org.datacenter.analog.sorties.SortiesRouter.sorties;
 @Slf4j
 public class Main extends AbstractVerticle {
 
-    private static final int PORT = 18080;
+    private static final int PORT = 8080;
 
     public static void main(String[] args) {
         Vertx vertx = Vertx.vertx();
