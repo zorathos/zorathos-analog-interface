@@ -131,7 +131,7 @@ public class FlightPlanRouter {
                     [{
                         "RQ": "%s",
                         "XML": "%s"
-                    }
+                    }]
                     """.formatted(dateDest, xml));
         });
     }
