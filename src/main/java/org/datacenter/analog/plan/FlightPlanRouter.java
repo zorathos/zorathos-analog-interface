@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
@@ -120,15 +121,18 @@ public class FlightPlanRouter {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
+            // 把yyyyMMdd格式的日期转换成yyyy-MM-dd 00:00:00格式
+            String dateSrc = jhbhStr.split("-")[0];
+            String dateDest = dateSrc.substring(0, 4) + "-" + dateSrc.substring(4, 6) + "-" + dateSrc.substring(6, 8) + " 00:00:00";
             // 处理请求
             HttpServerResponse response = routingContext.response();
             response.putHeader("content-type", "application/json");
             response.end("""
-                    {
+                    [{
                         "RQ": "%s",
                         "XML": "%s"
                     }
-                    """.formatted(jhbhStr.split("-")[0], xml));
+                    """.formatted(dateDest, xml));
         });
     }
 
